@@ -19,7 +19,9 @@ int main(int argc, const char * argv[]) {
         NSString *equation = [NSString stringWithUTF8String:str]; //Convert the str array to a NSString object so that we can trim it
         equation = [equation stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceCharacterSet]]; //Trim both the front and the back of the equation to remove any white spaces
         
-        NSArray *splitup = [equation componentsSeparatedByCharactersInSet:[NSCharacterSet whitespaceCharacterSet]]; //Split up the NSString into individual characters put into an array to get rid of the potential white space in between characters so that we can evaluate each character one by one
+        NSArray* characters = [equation componentsSeparatedByCharactersInSet :[NSCharacterSet whitespaceAndNewlineCharacterSet]]; //removes newlines, tabs, spaces etc by converting it to an Array object then calling the Array Object functions
+        NSString* nospacechars = [characters componentsJoinedByString:@""]; //Converts the Array back into a NSString after the whitespaces/newlines/tabs etc are removed
+        
         
         NSLog(@"This is working %@", equation); //Attempted to print Object
     }
