@@ -24,9 +24,10 @@
 
 /* Begin PBXFileReference section */
 		1ACF83D71EA0AA50003AF024 /* UTS Calculator project */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "UTS Calculator project"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1ACF83DA1EA0AA50003AF024 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		1ACF83E11EA0B0A1003AF024 /* ValidOperators.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ValidOperators.h; sourceTree = "<group>"; };
-		1ACF83E21EA0B94F003AF024 /* MathOps.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MathOps.h; sourceTree = "<group>"; };
+		1ACF83DA1EA0AA50003AF024 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = "UTS Calculator project/main.m"; sourceTree = "<group>"; };
+		1ACF83E21EA0B94F003AF024 /* MathOps.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MathOps.h; path = "UTS Calculator project/MathOps.h"; sourceTree = "<group>"; };
+		1ACF83E61EA0C42C003AF024 /* OperationFunctions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OperationFunctions.h; sourceTree = "<group>"; };
+		1ACF83E71EA0C43B003AF024 /* OperationFunctions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OperationFunctions.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +44,10 @@
 		1ACF83CE1EA0AA50003AF024 = {
 			isa = PBXGroup;
 			children = (
+				1ACF83E71EA0C43B003AF024 /* OperationFunctions.m */,
+				1ACF83E61EA0C42C003AF024 /* OperationFunctions.h */,
+				1ACF83E21EA0B94F003AF024 /* MathOps.h */,
+				1ACF83DA1EA0AA50003AF024 /* main.m */,
 				1ACF83D91EA0AA50003AF024 /* UTS Calculator project */,
 				1ACF83D81EA0AA50003AF024 /* Products */,
 			);
@@ -59,9 +64,6 @@
 		1ACF83D91EA0AA50003AF024 /* UTS Calculator project */ = {
 			isa = PBXGroup;
 			children = (
-				1ACF83DA1EA0AA50003AF024 /* main.m */,
-				1ACF83E11EA0B0A1003AF024 /* ValidOperators.h */,
-				1ACF83E21EA0B94F003AF024 /* MathOps.h */,
 			);
 			path = "UTS Calculator project";
 			sourceTree = "<group>";

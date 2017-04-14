@@ -8,6 +8,12 @@
 
 #import <Foundation/Foundation.h>
 #import "MathOps.h"
+#import "OperationFunctions.h"
+
+BOOL isAnOperator (const char value) //Checks if the value is an operator
+{
+    return ((value =='+')||(value =='-')||(value =='*')||(value =='/'||(value =='%')));
+}
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
@@ -18,7 +24,7 @@ int main(int argc, const char * argv[]) {
         scanf("%s",str); //read in the input and put it into the array of characters "str"
         
         NSString *equation = [NSString stringWithUTF8String:str]; //Convert the str array to a NSString object so that we can trim it
-        equation = [equation stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceCharacterSet]]; //Trim both the front and the back of the equation to remove any white spaces
+        equation = [equation stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceCharacterSet]]; //Trim both the front and the back of the equation to remove any white spaces (Notsure if this is needed anymore will test)
         
         NSArray* characters = [equation componentsSeparatedByCharactersInSet :[NSCharacterSet whitespaceAndNewlineCharacterSet]]; //removes newlines, tabs, spaces etc by converting it to an Array object then calling the Array Object functions
         NSString* nospacechars = [characters componentsJoinedByString:@""]; //Converts the Array back into a NSString after the whitespaces/newlines/tabs etc are removed
