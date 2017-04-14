@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		1ACF83DB1EA0AA50003AF024 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ACF83DA1EA0AA50003AF024 /* main.m */; };
+		1ACF83F01EA0C6B7003AF024 /* Expression.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ACF83EA1EA0C6B7003AF024 /* Expression.m */; };
+		1ACF83F11EA0C6B7003AF024 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ACF83EB1EA0C6B7003AF024 /* main.m */; };
+		1ACF83F21EA0C6B7003AF024 /* Operator.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ACF83ED1EA0C6B7003AF024 /* Operator.m */; };
+		1ACF83F31EA0C6B7003AF024 /* Plus.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ACF83EF1EA0C6B7003AF024 /* Plus.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +32,14 @@
 		1ACF83E21EA0B94F003AF024 /* MathOps.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MathOps.h; path = "UTS Calculator project/MathOps.h"; sourceTree = "<group>"; };
 		1ACF83E61EA0C42C003AF024 /* OperationFunctions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OperationFunctions.h; sourceTree = "<group>"; };
 		1ACF83E71EA0C43B003AF024 /* OperationFunctions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OperationFunctions.m; sourceTree = "<group>"; };
+		1ACF83E81EA0C6B7003AF024 /* Evaluatable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Evaluatable.h; path = "../../../Downloads/proj1-hints/proj1/Evaluatable.h"; sourceTree = "<group>"; };
+		1ACF83E91EA0C6B7003AF024 /* Expression.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Expression.h; path = "../../../Downloads/proj1-hints/proj1/Expression.h"; sourceTree = "<group>"; };
+		1ACF83EA1EA0C6B7003AF024 /* Expression.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Expression.m; path = "../../../Downloads/proj1-hints/proj1/Expression.m"; sourceTree = "<group>"; };
+		1ACF83EB1EA0C6B7003AF024 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = "../../../Downloads/proj1-hints/proj1/main.m"; sourceTree = "<group>"; };
+		1ACF83EC1EA0C6B7003AF024 /* Operator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Operator.h; path = "../../../Downloads/proj1-hints/proj1/Operator.h"; sourceTree = "<group>"; };
+		1ACF83ED1EA0C6B7003AF024 /* Operator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Operator.m; path = "../../../Downloads/proj1-hints/proj1/Operator.m"; sourceTree = "<group>"; };
+		1ACF83EE1EA0C6B7003AF024 /* Plus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Plus.h; path = "../../../Downloads/proj1-hints/proj1/Plus.h"; sourceTree = "<group>"; };
+		1ACF83EF1EA0C6B7003AF024 /* Plus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Plus.m; path = "../../../Downloads/proj1-hints/proj1/Plus.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +76,14 @@
 		1ACF83D91EA0AA50003AF024 /* UTS Calculator project */ = {
 			isa = PBXGroup;
 			children = (
+				1ACF83E81EA0C6B7003AF024 /* Evaluatable.h */,
+				1ACF83E91EA0C6B7003AF024 /* Expression.h */,
+				1ACF83EA1EA0C6B7003AF024 /* Expression.m */,
+				1ACF83EB1EA0C6B7003AF024 /* main.m */,
+				1ACF83EC1EA0C6B7003AF024 /* Operator.h */,
+				1ACF83ED1EA0C6B7003AF024 /* Operator.m */,
+				1ACF83EE1EA0C6B7003AF024 /* Plus.h */,
+				1ACF83EF1EA0C6B7003AF024 /* Plus.m */,
 			);
 			path = "UTS Calculator project";
 			sourceTree = "<group>";
@@ -125,7 +145,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1ACF83F31EA0C6B7003AF024 /* Plus.m in Sources */,
 				1ACF83DB1EA0AA50003AF024 /* main.m in Sources */,
+				1ACF83F21EA0C6B7003AF024 /* Operator.m in Sources */,
+				1ACF83F11EA0C6B7003AF024 /* main.m in Sources */,
+				1ACF83F01EA0C6B7003AF024 /* Expression.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
