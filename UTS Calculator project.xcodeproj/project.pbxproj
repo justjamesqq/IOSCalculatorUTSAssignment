@@ -26,6 +26,7 @@
 		1ACF83D71EA0AA50003AF024 /* UTS Calculator project */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "UTS Calculator project"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1ACF83DA1EA0AA50003AF024 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1ACF83E11EA0B0A1003AF024 /* ValidOperators.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ValidOperators.h; sourceTree = "<group>"; };
+		1ACF83E21EA0B94F003AF024 /* MathOps.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MathOps.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +61,7 @@
 			children = (
 				1ACF83DA1EA0AA50003AF024 /* main.m */,
 				1ACF83E11EA0B0A1003AF024 /* ValidOperators.h */,
+				1ACF83E21EA0B94F003AF024 /* MathOps.h */,
 			);
 			path = "UTS Calculator project";
 			sourceTree = "<group>";

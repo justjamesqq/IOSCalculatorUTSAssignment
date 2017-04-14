@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "MathOps.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
@@ -22,8 +23,11 @@ int main(int argc, const char * argv[]) {
         NSArray* characters = [equation componentsSeparatedByCharactersInSet :[NSCharacterSet whitespaceAndNewlineCharacterSet]]; //removes newlines, tabs, spaces etc by converting it to an Array object then calling the Array Object functions
         NSString* nospacechars = [characters componentsJoinedByString:@""]; //Converts the Array back into a NSString after the whitespaces/newlines/tabs etc are removed
         
+        //Now we need to find out if the equation is a valid equation
         
-        NSLog(@"This is working %@", equation); //Attempted to print Object
+        
+        
+        NSLog(@"This is working %@", nospacechars); //Attempted to print Object
     }
     return 0;
 }
